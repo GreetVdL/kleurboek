@@ -1,4 +1,4 @@
-# ourfavoritecolors
+# Our favorite colors
 <p><strong>These are our favorite colors</strong></p>
 
 <p>Hi!</p>
