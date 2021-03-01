@@ -9,7 +9,15 @@
 <h3>How to contribute</h3>
 <p>In the index.html file, copy a ‘div’ code block that has a class=”colorblock” and paste it right underneath the last one, right before the closing ‘main’ tag.
 Between the ‘span’ tags, fill in your name, followed by a space and the hex color code of your favorite color. Your name and the color code will then appear as a tooltip when you hover the color block. Also fill in the hex code of your favorite color in the style=”background-color:yourfavoritecolor” attribute.
-This is a great tool to pick your color: https://coolors.co/e6544f</p>
-<p>Make a pull request so that your color can be added to the website.</p>
+  <a href="https://coolors.co/e6544f" target="_blank">This</a> is a great tool to pick your color.</p>
+<p>Make a pull request so that your color can be added to the website. Follow these steps:</p>
+<ul><li>Fork this repository.</li>
+<li>Clone your GitHub fork to your computer. Make sure you are in the directory you want your directory to be cloned in.</li>
+<li>Make a new branch.</li>
+<li>Make your changes and commit them.</li>
+<li>Push back to your forked repository.</li>
+<li>Click the 'compare & pull request' button.</li>
+<li>Click 'create pull request' to open a new pull request.</li></ul>
+
 <p>And that’s it. Thanks!</p>
 
