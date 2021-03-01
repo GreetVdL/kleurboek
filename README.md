@@ -1,5 +1,5 @@
 # firstcontributions
-<p style="font-weight:bold">These are our favorite colors</p>
+<p><strong>These are our favorite colors</strong></p>
 
 <p>Hi!</p>
 <p>This little project came to life out of my love of color and curiosity. I think it’s also a simple project for people like me who are still learning and  want to exercise with making a pull request.</p>
