@@ -12,7 +12,7 @@ Between the ‘span’ tags, fill in your name, followed by a space and the hex 
   <a href="https://coolors.co/e6544f" target="_blank">This</a> is a great tool to pick your color.</p>
 <p>Make a pull request so that your color can be added to the website. Follow these steps:</p>
 <ul><li>Fork this repository.</li>
-<li>Clone your GitHub fork to your computer. Make sure you are in the directory you want your repository to be cloned in.</li>
+<li>Clone your GitHub fork to your computer. Make sure you are in the directory you want your forked repository to be cloned in.</li>
 <li>Make a new branch.</li>
 <li>Make your changes and commit them.</li>
 <li>Push back to your forked repository.</li>
