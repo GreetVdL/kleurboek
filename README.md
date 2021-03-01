@@ -4,7 +4,7 @@
 <p>Hi!</p>
 <p>This little project came to life out of my love of color and curiosity. I think it’s also a simple project for people like me who are still learning and  want to exercise with making a pull request.</p>
 <p>The idea is just to display people’s favorite color and see what the result will look like.</p>
-<p>Checkout <a href="https://theseareourfavoritecolors.vercel.app/" target="_blank">the website</a> to find out.</p>
+<p>Checkout <a href="https://ourfavoritecolors.vercel.app/" target="_blank">the website</a> to find out.</p>
 <p>And be welcome to add your own favorite one too. I’d love to see which color you chose!</p>
 <h3>How to contribute</h3>
 <p>In the index.html file, copy a ‘div’ code block that has a class=”colorblock” and paste it right underneath the last one, right before the closing ‘main’ tag.
