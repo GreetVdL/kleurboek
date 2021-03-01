@@ -14,16 +14,22 @@ Between the ‘span’ tags, fill in your name, followed by a space and the hex 
 <ul><li>Fork this repository by clicking the 'fork' button in the top right corner.</li></ul>
 <ul><li>Clone your GitHub fork to your computer. Make sure you are in the directory where you want your forked repository to be cloned in.</li></ul>
 <code>$ git clone &lt;URLFROMFORKEDREPOSITORY&gt;</code>
+<p></p>
 <ul><li>Go into the folder that has just been created.</li></ul>
 <code>$ cd &lt;FOLDERNAME&gt;</code>
+<p></p>
 <ul><li>Create a new branch locally.</li></ul>
 <code>$ git branch &lt;BRANCHNAME&gt;</code>
+<p></p>
 <ul><li>Go into that branch.</li></ul>
 <code>$ git checkout &lt;BRANCHNAME&gt;</code>
+<p></p>
 <ul><li>Make your changes and commit them.</li></ul> 
 <code>$ git commit –a –m “meaningfulcommitmessage”</code>
+<p></p>
 <ul><li>Push back to your forked repository.</li></ul>
 <code>$ git push</code>
+<p></p>
 <ul><li>Click the 'compare & pull request' button.</li></ul>
 <ul><li>Click 'create pull request' to open a new pull request.</li></ul>
 
