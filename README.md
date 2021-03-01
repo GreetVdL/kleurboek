@@ -2,7 +2,7 @@
 <p><strong>These are our favorite colors</strong></p>
 
 <p>Hi!</p>
-<p>This little project came to life out of my love of color and curiosity. I think it’s also a simple project for people like me who are still learning and  want to exercise with making a pull request.</p>
+<p>This little project came to life out of my love of color and curiosity. I think it’s also a simple project for people who, like me, are still learning and  want to exercise with making a pull request.</p>
 <p>The idea is just to display people’s favorite color and see what the result will look like.</p>
 <p>Checkout <a href="https://ourfavoritecolors.vercel.app/" target="_blank">the website</a> to find out.</p>
 <p>And be welcome to add your own favorite one too. I’d love to see which color you chose!</p>
