@@ -64,6 +64,8 @@ main {
   visibility: visible;
 }
 
+/* gender filtering styles */
+
 /* responsive styles */
 
 @media screen and (max-width: 1370px) {
