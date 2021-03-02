@@ -60,11 +60,13 @@ main {
   left: 5px;
 }
 
-.colorblock:hover .tooltip {
+a:hover .tooltip {
   visibility: visible;
 }
 
-/* gender filtering styles */
+a:active .tooltip {
+  visibility: visible;
+}
 
 /* responsive styles */
 
@@ -82,5 +84,21 @@ main {
   }
   main {
     padding: 0 10px 20px 10px;
+  }
+  a:hover .colorblock {
+    position: static;
+  }
+  a:hover .tooltip {
+    visibility: visible;
+    top: 20px;
+    left: 20px;
+  }
+  a:active .colorblock {
+    position: static;
+  }
+  a:active .tooltip {
+    visibility: visible;
+    top: 20px;
+    left: 20px;
   }
 }
