@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+/* font-family: "Cutive Mono", monospace; */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* font-family: 'Montserrat', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+/* font-family: 'Boogaloo', cursive; */
 
 /* base styles */
 
@@ -10,21 +15,40 @@ body {
   font-family: "Cutive Mono", monospace;
   font-size: 23px;
   background-color: #fdfdfd;
+  margin: 0 50px 0 50px;
 }
 
 #container {
   max-width: 1300px;
   /* max-width: 705px; */
-  margin: 0 auto;
+  margin: 20px auto 20px auto;
+  padding: 0 20px 0 20px;
+  border: 1px solid black;
+  min-height: calc(100vh - 40px);
+  background-color: #fdfdfd;
 }
 
 /* header styles */
 
 header {
-  text-align: center;
-  padding: 90px 0 28px 10px;
+  text-align: left;
+  padding: 90px 20px 35px 0;
   line-height: 30px;
-  letter-spacing: 10px;
+  letter-spacing: 9px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #363f4c;
+}
+
+header > span {
+  font-size: 24px;
+}
+
+header > span:nth-of-type(2) {
+  font-size: 30px;
+  font-weight: 200;
 }
 
 /* main styles */
@@ -33,12 +57,15 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0 65px 0 65px;
+  margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .colorblock {
-  width: 30px;
-  height: 30px;
-  margin: 15px;
+  width: 35px;
+  height: 35px;
+  margin: 15px 50px 15px 50px;
   position: relative;
   border-radius: 13% 31% 22% 50% / 13% 31% 22% 50%;
 }
@@ -51,7 +78,7 @@ main {
   background-color: white;
   color: black;
   text-align: center;
-  padding: 5px 5px 5px 5px;
+  padding: 5px 10px 5px 10px;
   border-radius: 6px;
   border: 1px solid black;
   font-size: 16px;
@@ -59,6 +86,9 @@ main {
   z-index: 1;
   top: 125%;
   left: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  line-height: 23px;
 }
 
 a:hover .tooltip {
@@ -75,16 +105,25 @@ a:active .tooltip {
   main {
     padding: 0 65px 20px 65px;
   }
+  .colorblock {
+    margin: 15px 30px 15px 30px;
+  }
 }
 
 @media screen and (max-width: 740px) {
+  body {
+    margin: 0;
+  }
   header {
-    text-align: center;
+    text-align: left;
     padding: 90px 30px 28px 30px;
     line-height: 30px;
   }
   main {
     padding: 0 10px 20px 10px;
+  }
+  .colorblock {
+    margin: 15px 15px 15px 15px;
   }
   a:hover .colorblock {
     position: static;
