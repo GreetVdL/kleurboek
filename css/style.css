@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: "Cutive Mono", monospace;
+  font-family: "Montserrat", sans-serif;
   font-size: 23px;
   background-color: #fdfdfd;
   margin: 0 50px 0 50px;
@@ -49,6 +49,36 @@ header > span {
 header > span:nth-of-type(2) {
   font-size: 30px;
   font-weight: 200;
+}
+
+/* nav styles */
+
+#container > a {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  color: #363f4c;
+}
+
+#container a:nth-of-type(1) p {
+  color: #f397b8;
+  font-weight: 600;
+}
+
+#container a:nth-of-type(2) p {
+  color: #00b5e2;
+  font-weight: 600;
+}
+
+#container > a:nth-of-type(1):active ~ main .male,
+#container > a:nth-of-type(1):active ~ main .other {
+  display: none;
+}
+
+#container > a:nth-of-type(2):active ~ main .female,
+#container > a:nth-of-type(2):active ~ main .other {
+  display: none;
 }
 
 /* main styles */
