@@ -156,7 +156,7 @@ a:active .tooltip {
 
 @media screen and (max-width: 740px) {
   body {
-    margin: 0;
+    margin: 0 10px 0 10px;
   }
   header {
     text-align: left;
