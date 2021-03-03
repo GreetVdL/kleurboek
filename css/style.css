@@ -71,11 +71,15 @@ header > span:nth-of-type(2) {
   font-weight: 600;
 }
 
+#container > a:nth-of-type(1):hover ~ main .male,
+#container > a:nth-of-type(1):hover ~ main .other,
 #container > a:nth-of-type(1):active ~ main .male,
 #container > a:nth-of-type(1):active ~ main .other {
   display: none;
 }
 
+#container > a:nth-of-type(2):hover ~ main .female,
+#container > a:nth-of-type(2):hover ~ main .other,
 #container > a:nth-of-type(2):active ~ main .female,
 #container > a:nth-of-type(2):active ~ main .other {
   display: none;
