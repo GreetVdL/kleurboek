@@ -137,11 +137,11 @@ main {
   line-height: 23px;
 }
 
-a:hover .tooltip {
+main a:hover .tooltip {
   visibility: visible;
 }
 
-a:active .tooltip {
+main a:active .tooltip {
   visibility: visible;
 }
 
