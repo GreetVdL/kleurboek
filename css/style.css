@@ -14,7 +14,8 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 23px;
-  background-color: #fdfdfd;
+  /* background-color: #fdfdfd; */
+  background-color: white;
   margin: 0 50px 0 50px;
 }
 
