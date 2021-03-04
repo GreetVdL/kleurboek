@@ -23,7 +23,7 @@ body {
   /* max-width: 705px; */
   margin: 20px auto 20px auto;
   padding: 0 20px 0 20px;
-  border: 1px solid black;
+  border: 1px solid #363f4c;
   min-height: calc(100vh - 40px);
   background-color: #fdfdfd;
 }
@@ -58,48 +58,65 @@ header > span:nth-of-type(2) {
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
-  color: #363f4c;
+  color: #e5d6b1;
   max-width: 150px;
   display: inline-block;
   margin: 0;
 }
 
+#container > a:nth-of-type(1) {
+  margin-left: 21px;
+}
+
 #container > a:nth-of-type(2) {
-  margin-left: 3px;
+  margin-left: 6px;
 }
 
 #container > a:nth-of-type(3) {
-  margin-left: 10px;
+  margin-left: 6px;
+}
+
+#container > a > p {
+  border: 1px solid #dbdbdb;
+  /* border-radius: 13% 31% 22% 50%; */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 11px;
 }
 
 #container a:nth-of-type(1) p {
-  color: #363f4c;
+  color: #dbdbdb;
   font-weight: 400;
 }
 
-#container a:nth-of-type(1):hover p {
+#container > a:nth-of-type(1):hover p {
   color: #f90975;
   font-weight: 400;
+  border: 1px solid #f90975;
 }
 
-#container a:nth-of-type(2) p {
-  color: #363f4c;
+#container > a:nth-of-type(2) p {
+  color: #dbdbdb;
   font-weight: 400;
 }
 
-#container a:nth-of-type(2):hover p {
+#container > a:nth-of-type(2):hover p {
   color: #00b5e2;
   font-weight: 400;
+  border: 1px solid #00b5e2;
 }
 
-#container a:nth-of-type(3) p {
-  color: #363f4c;
+#container > a:nth-of-type(3) p {
+  color: #dbdbdb;
   font-weight: 400;
 }
 
-#container a:nth-of-type(3):hover p {
+#container > a:nth-of-type(3):hover p {
   color: #fdf919;
   font-weight: 400;
+  border: 1px solid #fdf919;
 }
 
 #container > a:nth-of-type(1):hover ~ main .male,
@@ -133,8 +150,8 @@ main {
 }
 
 .colorblock {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   margin: 15px 50px 15px 50px;
   position: relative;
   border-radius: 13% 31% 22% 50% / 13% 31% 22% 50%;
