@@ -68,6 +68,10 @@ header > span:nth-of-type(2) {
   margin-left: 3px;
 }
 
+#container > a:nth-of-type(3) {
+  margin-left: 10px;
+}
+
 #container a:nth-of-type(1) p {
   color: #363f4c;
   font-weight: 400;
@@ -88,7 +92,7 @@ header > span:nth-of-type(2) {
   font-weight: 400;
 }
 
-/* #container a:nth-of-type(3) p {
+#container a:nth-of-type(3) p {
   color: #363f4c;
   font-weight: 400;
 }
@@ -96,7 +100,7 @@ header > span:nth-of-type(2) {
 #container a:nth-of-type(3):hover p {
   color: #fdf919;
   font-weight: 400;
-} */
+}
 
 #container > a:nth-of-type(1):hover ~ main .male,
 #container > a:nth-of-type(1):hover ~ main .other,
