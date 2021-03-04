@@ -1,0 +1,123 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M576 96c0 53.019-42.981 96-96 96s-96-42.981-96-96c0-53.019 42.981-96 96-96s96 42.981 96 96z",
+          "M576 256h-192c-35.346 0-64 28.654-64 64v320h64v384h80v-384h32v384h80v-384h64v-320c0-35.346-28.652-64-64-64z"
+        ],
+        "tags": [
+          "man",
+          "male",
+          "gender",
+          "sex"
+        ],
+        "defaultCode": 59868,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "man, male",
+        "name": "man",
+        "order": 14,
+        "id": 221,
+        "prevSize": 32
+      },
+      "setIdx": 2,
+      "setId": 1,
+      "iconIdx": 220
+    },
+    {
+      "icon": {
+        "paths": [
+          "M576 96c0 53.019-42.981 96-96 96s-96-42.981-96-96c0-53.019 42.981-96 96-96s96 42.981 96 96z",
+          "M719 512l49-35.5-133.286-206.116c-5.92-8.98-15.958-14.384-26.714-14.384h-256c-10.756 0-20.792 5.404-26.714 14.384l-133.286 206.116 49 35.5 110.644-143.596 38.458 89.74-134.102 245.856h122.666l21.334 320h64v-320h32v320h64l21.334-320h122.666l-134.104-245.858 38.458-89.74 110.646 143.598z"
+        ],
+        "tags": [
+          "woman",
+          "female",
+          "gender",
+          "sex"
+        ],
+        "defaultCode": 59869,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "woman, female",
+        "name": "woman",
+        "order": 15,
+        "id": 222,
+        "prevSize": 32
+      },
+      "setIdx": 2,
+      "setId": 1,
+      "iconIdx": 221
+    },
+    {
+      "icon": {
+        "paths": [
+          "M256 96c0 53.019-42.981 96-96 96s-96-42.981-96-96c0-53.019 42.981-96 96-96s96 42.981 96 96z",
+          "M832 96c0 53.019-42.981 96-96 96s-96-42.981-96-96c0-53.019 42.981-96 96-96s96 42.981 96 96z",
+          "M256 256h-192c-35.346 0-64 28.654-64 64v320h64v384h80v-384h32v384h80v-384h64v-320c0-35.346-28.652-64-64-64z",
+          "M975 512l49-35.5-133.286-206.116c-5.92-8.98-15.958-14.384-26.714-14.384h-256c-10.756 0-20.792 5.404-26.714 14.384l-133.286 206.116 49 35.5 110.644-143.596 38.458 89.74-134.102 245.856h122.666l21.334 320h64v-320h32v320h64l21.334-320h122.666l-134.104-245.858 38.458-89.74 110.646 143.598z"
+        ],
+        "tags": [
+          "man-woman",
+          "toilet",
+          "bathroom",
+          "sex",
+          "gender"
+        ],
+        "defaultCode": 59870,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "man-woman, toilet",
+        "name": "man-woman",
+        "order": 16,
+        "id": 223,
+        "prevSize": 32
+      },
+      "setIdx": 2,
+      "setId": 1,
+      "iconIdx": 222
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

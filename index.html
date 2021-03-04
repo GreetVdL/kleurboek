@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>our favorite colors</title>
     <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link rel="stylesheet" href="./icons/style.css" />
     <!-- <link rel="shortcut icon" href="favicon.png" type="image/x-icon" /> -->
   </head>
   <body>
@@ -15,10 +16,18 @@
       </header>
 
       <a href="#">
-        <p>pink</p>
+        <p>
+          <svg class="icon icon-woman">
+            <use xlink:href="./icons/symbol-defs.svg#icon-woman"></use>
+          </svg>
+        </p>
       </a>
       <a href="#">
-        <p>blue</p>
+        <p>
+          <svg class="icon icon-man">
+            <use xlink:href="./icons/symbol-defs.svg#icon-man"></use>
+          </svg>
+        </p>
       </a>
       <!-- <a href="#">
         <p>everyone</p>
@@ -60,7 +69,13 @@
             <span class="tooltip">Sonia #663369</span>
           </div>
         </a>
+        <a class="codeblock" href="#">
+          <div class="colorblock female" style="background-color: #5651e6">
+            <span class="tooltip">Monique #663369</span>
+          </div>
+        </a>
       </main>
     </div>
+    <script defer src="./icons/svgxuse.js"></script>
   </body>
 </html>
