@@ -1,13 +1,12 @@
 # Our favorite colors
 <p><strong>These are our favorite colors</strong></p>
 
-<p>Hi!</p>
-<p>This little project came to life from my love of color and curiosity. I think it’s also a simple project for people who, like me, are still learning and want to exercise by making a pull request.</p>
-<p>The idea is just to display people’s favorite color. The colors can be filtered based on gender, so it's nice to see what the different results are.</p>
-<p>Checkout <a href="https://ourfavoritecolors.vercel.app/" target="_blank">the website</a> to find out what colors we like.</p>
+<p>This little project came to life from my love of color and curiosity.</p>
+<p>The idea is just to display people’s favorite color and explore which colors we like. The colors can be filtered based on sex, so it's nice to see what happens when you split them up.</p>
+<p>Checkout <a href="https://ourfavoritecolors.vercel.app/" target="_blank">the website</a> to see all the colors we love.</p>
 <p>And be welcome to add your own favorite one too. I’d love to see which color you chose!</p>
 <h3>How to contribute</h3>
-<p>In the index.html file, copy an &lt;a&gt; code block that has a class="codeblock" on it and paste it underneath the last one, right before the closing &lt;main&gt; tag. Add your gender to the class="colorblock", for instance class="colorblock female". You can choose between the categories 'male', 'female' and 'other'. Between the &lt;span&gt; tags, fill in your name or an alias, followed by a space and the hex color code of the color you chose. Your name and the color code will then appear as a tooltip when you hover or click the color block. Also fill in the hex code of your favorite color in the style=”background-color:yourfavoritecolor” attribute.</p>
+<p>In the index.html file, copy an &lt;a&gt; code block that has a class="codeblock" on it and paste it underneath the last one, right before the closing &lt;main&gt; tag. Add your sex to the class="colorblock". Between the &lt;span&gt; tags, fill in your name or an alias, followed by a space and the hex color code of the color you chose. Your name and the color code will then appear as a tooltip when you hover or click the color block. Also fill in the hex code of your favorite color in the style=”background-color:yourfavoritecolor” attribute.</p>
 <p><a href="https://coolors.co/e6544f" target="_blank">This</a> is a great tool to pick your color.</p>
 <p>Make a pull request so that your color can be added to the website. Follow these steps:</p>
 <ul><li>Fork this repository by clicking the 'fork' button in the top right corner.</li></ul>
@@ -32,5 +31,4 @@
 <ul><li>Click the 'compare & pull request' button.</li></ul>
 <ul><li>Click 'create pull request' to open a new pull request.</li></ul>
 
-<p>And that’s it. Thanks!</p>
 
