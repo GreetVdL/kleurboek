@@ -114,9 +114,9 @@ header > span:nth-of-type(2) {
 }
 
 #container > a:nth-of-type(3):hover p {
-  color: #fdf919;
+  color: #f7f14f;
   font-weight: 400;
-  border: 1px solid #fdf919;
+  border: 1px solid #f7f14f;
 }
 
 #container > a:nth-of-type(1):hover ~ main .male,
