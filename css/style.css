@@ -227,7 +227,7 @@ main a:active .tooltip {
   }
   a:hover .tooltip {
     visibility: visible;
-    top: 30px;
+    top: 20px;
     left: 20px;
   }
   a:active .colorblock {
@@ -235,7 +235,7 @@ main a:active .tooltip {
   }
   a:active .tooltip {
     visibility: visible;
-    top: 30px;
+    top: 20px;
     left: 20px;
   }
 }
