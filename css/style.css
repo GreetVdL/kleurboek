@@ -167,16 +167,11 @@ main {
 .tooltip {
   visibility: hidden;
   width: auto;
-  /* background-color: #fdfdfd; */
   background-color: #f5e7c6;
-  /* color: #363f4c; */
   color: white;
-  /* color: #cccccc; */
   text-align: center;
   padding: 5px 10px 5px 10px;
   border-radius: 8px;
-  /* border: 2px solid #363f4c; */
-  /* border: 1px solid #dbdbdb; */
   font-size: 16px;
   position: absolute;
   z-index: 1;
@@ -231,7 +226,7 @@ main a:active .tooltip {
   }
   a:hover .tooltip {
     visibility: visible;
-    top: 25px;
+    top: 30px;
     left: 20px;
   }
   a:active .colorblock {
@@ -239,7 +234,7 @@ main a:active .tooltip {
   }
   a:active .tooltip {
     visibility: visible;
-    top: 20px;
+    top: 30px;
     left: 20px;
   }
 }
