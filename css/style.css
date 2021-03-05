@@ -167,22 +167,23 @@ main {
 .tooltip {
   visibility: hidden;
   width: auto;
-  background-color: #fdfdfd;
-  /* background-color: #f5e7c6; */
+  /* background-color: #fdfdfd; */
+  background-color: #f5e7c6;
   /* color: #363f4c; */
-  color: #cccccc;
+  color: white;
+  /* color: #cccccc; */
   text-align: center;
   padding: 5px 10px 5px 10px;
-  border-radius: 6px;
-  /* border: 1px solid #363f4c; */
-  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  /* border: 2px solid #363f4c; */
+  /* border: 1px solid #dbdbdb; */
   font-size: 16px;
   position: absolute;
   z-index: 1;
   top: 125%;
   left: 5px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 23px;
 }
 
@@ -230,7 +231,7 @@ main a:active .tooltip {
   }
   a:hover .tooltip {
     visibility: visible;
-    top: 20px;
+    top: 25px;
     left: 20px;
   }
   a:active .colorblock {
