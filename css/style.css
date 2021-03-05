@@ -128,15 +128,11 @@ header > span:nth-of-type(2) {
 #container > a:nth-of-type(1):hover ~ main .male,
 #container > a:nth-of-type(1):active ~ main .male {
   display: none;
-  width: 0;
-  margin: 15px 0 15px 0;
 }
 
 #container > a:nth-of-type(2):hover ~ main .female,
 #container > a:nth-of-type(2):active ~ main .female {
   display: none;
-  width: 0;
-  margin: 15px 0 15px 0;
 }
 
 #container > a:nth-of-type(3):hover ~ main .colorblock,
@@ -217,6 +213,8 @@ main a:active .tooltip {
   }
   .colorblock {
     margin: 15px 15px 15px 15px;
+    width: 45px;
+    height: 45px;
   }
   a:hover .colorblock {
     position: static;
