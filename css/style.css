@@ -168,18 +168,21 @@ main {
   visibility: hidden;
   width: auto;
   background-color: #fdfdfd;
-  color: #363f4c;
+  /* background-color: #f5e7c6; */
+  /* color: #363f4c; */
+  color: #cccccc;
   text-align: center;
   padding: 5px 10px 5px 10px;
   border-radius: 6px;
-  border: 1px solid #363f4c;
+  /* border: 1px solid #363f4c; */
+  border: 1px solid #dbdbdb;
   font-size: 16px;
   position: absolute;
   z-index: 1;
   top: 125%;
   left: 5px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 23px;
 }
 
