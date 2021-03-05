@@ -163,12 +163,12 @@ main {
 .tooltip {
   visibility: hidden;
   width: auto;
-  background-color: white;
-  color: black;
+  background-color: #fdfdfd;
+  color: #363f4c;
   text-align: center;
   padding: 5px 10px 5px 10px;
   border-radius: 6px;
-  border: 1px solid black;
+  border: 1px solid #363f4c;
   font-size: 16px;
   position: absolute;
   z-index: 1;
