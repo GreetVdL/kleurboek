@@ -15,7 +15,9 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 23px;
   /* background-color: #fdfdfd; */
-  background-color: white;
+  /* background-color: white; */
+  background-image: url("../images/hoopje-zanddd.jpg");
+  background-size: cover;
   margin: 0 50px 0 50px;
 }
 
@@ -24,7 +26,7 @@ body {
   /* max-width: 705px; */
   margin: 20px auto 20px auto;
   padding: 0 20px 0 20px;
-  border: 1px solid #363f4c;
+  border: 1px solid white;
   min-height: calc(100vh - 40px);
   background-color: #fdfdfd;
 }
