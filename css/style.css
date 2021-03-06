@@ -167,19 +167,19 @@ main {
 .tooltip {
   visibility: hidden;
   width: auto;
-  background-color: #fdfdfd;
-  color: #363f4c;
-  border: 1px solid #363f4c;
+  background-color: #eed994;
+  color: white;
+  border: 1px solid white;
   text-align: center;
   padding: 5px 10px 5px 10px;
-  border-radius: 6px;
-  font-size: 16px;
+  border-radius: 10px;
+  font-size: 22px;
   position: absolute;
   z-index: 1;
   top: 125%;
   left: 5px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-family: "Boogaloo", cursive;
+  font-weight: normal;
   line-height: 23px;
 }
 
