@@ -1,3 +1,5 @@
+<p align="center"><img src="./images/printscreen.png"></p>
+
 # Our favorite colors
 <p><strong>These are our favorite colors</strong></p>
 
