@@ -1,6 +1,6 @@
 <p align="center"><img src="./images/banner.png"></p>
 
-# Our favorite colors
+# Kleurboek
 <p><strong>These are our favorite colors</strong></p>
 
 <p>A project as an exercise to build a website with the intention to add more functionality as I progress in my capabilities.</p>
