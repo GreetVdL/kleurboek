@@ -87,7 +87,7 @@ header > span:nth-of-type(2) {
 }
 
 #container > a:nth-of-type(4) {
-  color: #dbdbdb;
+  color: #cccccc;
   font-size: 35px;
   line-height: 0;
 }
@@ -95,10 +95,6 @@ header > span:nth-of-type(2) {
 #container > a:nth-of-type(4) p {
   padding-left: 0;
   padding-top: 7px;
-}
-
-#container > a:nth-of-type(4) span {
-  display: inline-block;
 }
 
 #container > a > p {
