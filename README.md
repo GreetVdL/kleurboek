@@ -1,4 +1,4 @@
-<p align="center"><img src="./images/printscreen.png"></p>
+<p align="center"><img src="./images/banner.png"></p>
 
 # Our favorite colors
 <p><strong>These are our favorite colors</strong></p>
