@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
 /* font-family: "Cutive Mono", monospace; */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
@@ -62,7 +64,7 @@ header > span:nth-of-type(2) {
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
-  color: #e5d6b1;
+  /* color: #e5d6b1; */
   max-width: 150px;
   display: inline-block;
   margin: 0;
@@ -78,6 +80,25 @@ header > span:nth-of-type(2) {
 
 #container > a:nth-of-type(3) {
   margin-left: 6px;
+}
+
+#container > a:nth-of-type(4) {
+  margin-left: 6px;
+}
+
+#container > a:nth-of-type(4) {
+  color: #dbdbdb;
+  font-size: 35px;
+  line-height: 0;
+}
+
+#container > a:nth-of-type(4) p {
+  padding-left: 0;
+  padding-top: 7px;
+}
+
+#container > a:nth-of-type(4) span {
+  display: inline-block;
 }
 
 #container > a > p {
@@ -128,6 +149,12 @@ header > span:nth-of-type(2) {
   border: 1px solid #eff255;
 }
 
+#container > a:nth-of-type(4):hover p {
+  color: #32d3a9;
+  font-weight: 400;
+  border: 1px solid #32d3a9;
+}
+
 #container > a:nth-of-type(1):hover ~ main .male,
 #container > a:nth-of-type(1):active ~ main .male {
   display: none;
@@ -141,6 +168,13 @@ header > span:nth-of-type(2) {
 #container > a:nth-of-type(3):hover ~ main .colorblock,
 #container > a:nth-of-type(3):active ~ main .colorblock {
   display: block;
+}
+
+#container > a:nth-of-type(4):hover ~ main .male,
+#container > a:nth-of-type(4):active ~ main .male,
+#container > a:nth-of-type(4):hover ~ main .female,
+#container > a:nth-of-type(4):active ~ main .female {
+  display: none;
 }
 
 /* main styles */
