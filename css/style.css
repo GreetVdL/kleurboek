@@ -151,38 +151,12 @@ header > span:nth-of-type(2) {
   border: 1px solid #32d3a9;
 }
 
-/* #container > a:nth-of-type(1):hover ~ main .male,
-#container > a:nth-of-type(1):active ~ main .male,
-#container > a:nth-of-type(1):hover ~ main .child,
-#container > a:nth-of-type(1):active ~ main .child {
-  display: none;
-}
-
-#container > a:nth-of-type(2):hover ~ main .female,
-#container > a:nth-of-type(2):active ~ main .female,
-#container > a:nth-of-type(1):hover ~ main .child,
-#container > a:nth-of-type(1):active ~ main .child {
-  display: none;
-}
-
-#container > a:nth-of-type(3):hover ~ main .child,
-#container > a:nth-of-type(3):active ~ main .child {
-  display: none;
-}
-
-#container > a:nth-of-type(4):hover ~ main .male,
-#container > a:nth-of-type(4):active ~ main .male,
-#container > a:nth-of-type(4):hover ~ main .female,
-#container > a:nth-of-type(4):active ~ main .female {
-  display: none;
-} */
-
 /* main styles */
 
 main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 0 65px 0 65px;
   margin-top: 20px;
   padding-bottom: 20px;
