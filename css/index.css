@@ -116,6 +116,7 @@ header > span:nth-of-type(2) {
   font-weight: 400;
 }
 
+#container > nav > a:nth-of-type(1):focus p,
 #container > nav > a:nth-of-type(1):hover p {
   color: #f90975;
   font-weight: 400;
@@ -127,6 +128,7 @@ header > span:nth-of-type(2) {
   font-weight: 400;
 }
 
+#container > nav > a:nth-of-type(2):focus p,
 #container > nav > a:nth-of-type(2):hover p {
   color: #00b5e2;
   font-weight: 400;
@@ -138,6 +140,7 @@ header > span:nth-of-type(2) {
   font-weight: 400;
 }
 
+#container > nav > a:nth-of-type(3):focus p,
 #container > nav > a:nth-of-type(3):hover p {
   /* color: #f7f14f; */
   color: #eff255;
@@ -145,6 +148,7 @@ header > span:nth-of-type(2) {
   border: 1px solid #eff255;
 }
 
+#container > nav > a:nth-of-type(4):focus p,
 #container > nav > a:nth-of-type(4):hover p {
   color: #32d3a9;
   font-weight: 400;
