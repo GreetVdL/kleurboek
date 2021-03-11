@@ -168,6 +168,8 @@ main {
   margin: 15px 50px 15px 50px;
   position: relative;
   border-radius: 13% 31% 22% 50% / 13% 31% 22% 50%;
+  /* box-shadow: 12px 12px 20px -12px rgba(0, 0, 0, 1); */
+  /* box-shadow: 12px 12px 20px -12px rgba(0, 0, 0, 0.35); */
 }
 
 /* tooltip styles */
