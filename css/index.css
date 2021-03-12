@@ -236,10 +236,39 @@ nav a:active .tooltip {
     margin: 0 10px 0 10px;
   }
   header {
-    text-align: left;
+    text-align: center;
     padding: 90px 21px 28px 21px;
     line-height: 30px;
   }
+
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav a {
+    margin-left: 0;
+  }
+
+  nav a:nth-of-type(4) p {
+    margin-top: 27px;
+  }
+  #container > nav > a:nth-of-type(1) {
+    margin-left: 0;
+  }
+
+  nav :is(a:nth-of-type(2), a:nth-of-type(3), a:nth-of-type(4)) {
+    padding-left: 10px;
+    margin-left: 0;
+  }
+
+  nav a:hover .tooltip,
+  nav a:active .tooltip {
+    width: 100%;
+    text-align: center;
+    left: 0;
+  }
+
   main {
     padding: 0 10px 20px 10px;
   }
