@@ -192,7 +192,8 @@ nav a:nth-of-type(2) .tooltip {
 }
 
 nav a:nth-of-type(3) .tooltip {
-  color: #e9ec12;
+  /* color: #e9ec12; */
+  color: #e7c965;
 }
 
 nav a:nth-of-type(4) .tooltip {
