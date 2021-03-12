@@ -265,8 +265,9 @@ nav a:active .tooltip {
   nav a:hover .tooltip,
   nav a:active .tooltip {
     width: 100%;
-    text-align: center;
-    left: 0;
+    text-align: left;
+    left: 21px;
+    padding-left: 0;
   }
 
   main {
