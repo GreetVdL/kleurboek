@@ -105,9 +105,10 @@ header > span:nth-of-type(2) {
 
 #container > nav > a:nth-of-type(1):focus p,
 #container > nav > a:nth-of-type(1):hover p {
-  color: #f90975;
+  /* color: #f90975; */
+  color: #f22556;
   font-weight: 400;
-  border: 1px solid #f90975;
+  border: 1px solid #f22556;
 }
 
 #container > nav > a:nth-of-type(2):focus p,
@@ -183,7 +184,7 @@ nav {
 }
 
 nav a:nth-of-type(1) .tooltip {
-  color: #f90975;
+  color: #f22556;
 }
 
 nav a:nth-of-type(2) .tooltip {
