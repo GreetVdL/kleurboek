@@ -73,15 +73,7 @@ header > span:nth-of-type(2) {
   margin-left: 21px;
 }
 
-#container > nav > a:nth-of-type(2) {
-  margin-left: 6px;
-}
-
-#container > nav > a:nth-of-type(3) {
-  margin-left: 6px;
-}
-
-#container > nav > a:nth-of-type(4) {
+#container > nav > :is(a:nth-of-type(2), a:nth-of-type(3), a:nth-of-type(4)) {
   margin-left: 6px;
 }
 
@@ -98,21 +90,17 @@ header > span:nth-of-type(2) {
 
 #container > nav > a > p {
   border: 1px solid #dbdbdb;
-  /* border-radius: 13% 31% 22% 50%; */
   border-radius: 50%;
   width: 50px;
   height: 50px;
   padding-top: 10px;
   padding-left: 11px;
+  color: #dbdbdb;
+  font-weight: 400;
 }
 
 #container > nav > a:nth-of-type(3) > p {
   padding-left: 12px;
-}
-
-#container a:nth-of-type(1) p {
-  color: #dbdbdb;
-  font-weight: 400;
 }
 
 #container > nav > a:nth-of-type(1):focus p,
@@ -122,21 +110,11 @@ header > span:nth-of-type(2) {
   border: 1px solid #f90975;
 }
 
-#container > nav > a:nth-of-type(2) p {
-  color: #dbdbdb;
-  font-weight: 400;
-}
-
 #container > nav > a:nth-of-type(2):focus p,
 #container > nav > a:nth-of-type(2):hover p {
   color: #00b5e2;
   font-weight: 400;
   border: 1px solid #00b5e2;
-}
-
-#container > nav > a:nth-of-type(3) p {
-  color: #dbdbdb;
-  font-weight: 400;
 }
 
 #container > nav > a:nth-of-type(3):focus p,
@@ -206,6 +184,8 @@ main a:active .tooltip {
 
 /* responsive styles */
 
+/* breakpoint */
+
 @media screen and (max-width: 1370px) {
   body {
     background-size: cover;
@@ -217,6 +197,8 @@ main a:active .tooltip {
     margin: 15px 30px 15px 30px;
   }
 }
+
+/* breakpoint */
 
 @media screen and (max-width: 740px) {
   body {
