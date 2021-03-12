@@ -191,7 +191,7 @@ nav a:nth-of-type(2) .tooltip {
 }
 
 nav a:nth-of-type(3) .tooltip {
-  color: #d5d910;
+  color: #e9ec12;
 }
 
 nav a:nth-of-type(4) .tooltip {
@@ -207,7 +207,7 @@ nav a:active .tooltip {
   background-color: #fdfdfd;
   font-size: 14px;
   letter-spacing: 7px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 /* responsive styles */
