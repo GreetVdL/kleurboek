@@ -236,7 +236,7 @@ nav a:active .tooltip {
     margin: 0 10px 0 10px;
   }
   header {
-    text-align: center;
+    text-align: left;
     padding: 90px 21px 28px 21px;
     line-height: 30px;
   }
@@ -258,7 +258,7 @@ nav a:active .tooltip {
   }
 
   nav :is(a:nth-of-type(2), a:nth-of-type(3), a:nth-of-type(4)) {
-    padding-left: 10px;
+    padding-left: 7px;
     margin-left: 0;
   }
 
