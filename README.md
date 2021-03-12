@@ -5,7 +5,7 @@
 
 <p>A project as an exercise to build a website with the intention to add more functionality as I progress in my capabilities.</p>
 <p>This little project came to life from my love of color and curiosity.</p>
-<p>The idea is just to display people’s favorite color and explore which colors we like. The colors can be filtered based on sex, so it's nice to see the separate results for women and men also. There's a kids category too, minus thirteen.</p>
+<p>The idea is just to display people’s favorite color and explore which colors we like. The colors can be filtered based on sex, so it's nice to also see the separate results for women and men. There's a kids category too, minus thirteen.</p>
 <p>Checkout <a href="https://kleurboek.vercel.app/" target="_blank">the website</a> to see all the colors we love.</p>
 <p>And be welcome to add your own favorite one too. I’d love to see which color you chose!</p>
 <h3>How to contribute</h3>
