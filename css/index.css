@@ -121,9 +121,10 @@ header > span:nth-of-type(2) {
 #container > nav > a:nth-of-type(3):focus p,
 #container > nav > a:nth-of-type(3):hover p {
   /* color: #f7f14f; */
-  color: #eff255;
+  /* color: #eff255; */
+  color: #eed891;
   font-weight: 400;
-  border: 1px solid #eff255;
+  border: 1px solid #e7c965;
 }
 
 #container > nav > a:nth-of-type(4):focus p,
