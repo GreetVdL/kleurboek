@@ -27,7 +27,7 @@ body {
   /* max-width: 675px; */
   /* max-width: 705px; */
   margin: 20px auto 20px auto;
-  padding: 0 20px 0 20px;
+  padding: 0 20px 32px 20px;
   border: 1px solid white;
   min-height: calc(100vh - 40px);
   background-color: #fdfdfd;
