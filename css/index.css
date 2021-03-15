@@ -236,7 +236,7 @@ nav a:active .tooltip {
   body {
     margin: 0 10px 0 10px;
     background-size: 380vw;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
   header {
     text-align: left;
