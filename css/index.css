@@ -19,6 +19,7 @@ body {
   /* background-color: #fdfdfd; */
   background-image: url("../images/hoopje-zanddd.jpg");
   background-size: 143vw;
+  background-attachment: fixed;
   margin: 0 50px 0 50px;
 }
 
@@ -236,7 +237,6 @@ nav a:active .tooltip {
   body {
     margin: 0 10px 0 10px;
     background-size: 380vw;
-    background-attachment: fixed;
   }
   header {
     text-align: left;
