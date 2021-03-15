@@ -220,6 +220,7 @@ nav a:active .tooltip {
 @media screen and (max-width: 1370px) {
   body {
     background-size: cover;
+    /* background-size: 100vw; */
   }
   main {
     padding: 0 65px 20px 65px;
@@ -234,6 +235,8 @@ nav a:active .tooltip {
 @media screen and (max-width: 740px) {
   body {
     margin: 0 10px 0 10px;
+    background-size: 380vw;
+    background-attachment: fixed;
   }
   header {
     text-align: left;
