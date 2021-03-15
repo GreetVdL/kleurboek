@@ -13,12 +13,6 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 23px;
@@ -38,7 +32,6 @@ body {
   border: 1px solid white;
   min-height: calc(100vh - 40px);
   background-color: #fdfdfd;
-  overflow: scroll;
 }
 
 /* header styles */
