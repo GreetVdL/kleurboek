@@ -38,7 +38,6 @@ body {
   border: 1px solid white;
   min-height: calc(100vh - 40px);
   background-color: #fdfdfd;
-  position: static;
   overflow: scroll;
 }
 
