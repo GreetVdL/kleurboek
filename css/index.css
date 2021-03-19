@@ -63,8 +63,12 @@ header #darkmode {
   width: 50px;
 }
 
-header #darkmode:hover {
-  font-size: 35px;
+header .icon-sunglasses2 {
+  transition: transform 200ms;
+}
+
+header .icon-sunglasses2:hover {
+  transform: rotate(360deg);
 }
 
 header > span {
@@ -272,10 +276,6 @@ footer {
     text-align: left;
     padding: 90px 21px 28px 21px;
     line-height: 30px;
-  }
-
-  header #darkmode:hover {
-    font-size: 30px;
   }
 
   nav {
