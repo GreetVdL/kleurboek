@@ -106,7 +106,7 @@ function switchLightDark() {
       containerEl.style.backgroundColor = "#161B22";
       headerEl.style.color = "#bcbcbc";
       navTooltip.forEach((tooltip) => {
-        tooltip.style.backgroundColor = "#1C1C1C";
+        tooltip.style.backgroundColor = "#161B22";
         tooltip.style.border = "none";
       });
       sunglassesButton.style.color = "pink";
