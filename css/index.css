@@ -278,6 +278,14 @@ footer {
     line-height: 30px;
   }
 
+  header .icon-sunglasses2:hover {
+    transform: none;
+  }
+
+  header .icon-sunglasses2:active {
+    transform: rotate(360deg);
+  }
+
   nav {
     display: flex;
     justify-content: center;
