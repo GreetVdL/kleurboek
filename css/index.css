@@ -32,6 +32,7 @@ body {
   border: 1px solid white;
   min-height: calc(100vh - 40px);
   background-color: #fdfdfd;
+  filter: initial;
 }
 
 /* header styles */
@@ -46,6 +47,24 @@ header {
   font-size: 21px;
   text-transform: uppercase;
   color: #363f4c;
+  display: flex;
+  justify-content: space-between;
+}
+
+header p {
+  margin: 0;
+}
+
+header #darkmode {
+  font-size: 30px;
+  margin-top: -60px;
+  padding-right: 2px;
+  color: #363f4c;
+  width: 50px;
+}
+
+header #darkmode:hover {
+  font-size: 35px;
 }
 
 header > span {

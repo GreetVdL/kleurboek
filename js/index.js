@@ -78,6 +78,21 @@ function filterKids() {
   });
 }
 
+// toggle darkmode when sunglasses are clicked
+
+function switchLightDark() {
+  const sunglassesButton = document.querySelector("#darkmode");
+  const containerEl = document.querySelector("#container");
+  sunglassesButton.addEventListener("click", () => {
+    containerEl.classList.toggle("activeSunglasses");
+    const activatedSunglasses = document.querySelector(".activeSunglasses");
+    if (activatedSunglasses === null) {
+      containerEl.style.filter = "initial";
+    } else {
+      containerEl.style.filter = "invert(1) hue-rotate(180deg)";
+    }
+  });
+}
 // call filter functions when DOM loaded
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -85,4 +100,5 @@ window.addEventListener("DOMContentLoaded", () => {
   filterBoys();
   filterBoth();
   filterKids();
+  switchLightDark();
 });
