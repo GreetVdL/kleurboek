@@ -103,10 +103,10 @@ function switchLightDark() {
         tooltip.style.border = "1px solid white";
       });
     } else {
-      containerEl.style.backgroundColor = "#161B22";
+      containerEl.style.backgroundColor = "#202020";
       headerEl.style.color = "#bcbcbc";
       navTooltip.forEach((tooltip) => {
-        tooltip.style.backgroundColor = "#161B22";
+        tooltip.style.backgroundColor = "#202020";
         tooltip.style.border = "none";
       });
       sunglassesButton.style.color = "pink";
