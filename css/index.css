@@ -282,10 +282,6 @@ footer {
     transform: none;
   }
 
-  header .icon-sunglasses2:active {
-    transform: rotate(360deg);
-  }
-
   nav {
     display: flex;
     justify-content: center;

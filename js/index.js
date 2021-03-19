@@ -82,6 +82,7 @@ function filterKids() {
 
 function switchLightDark() {
   const sunglassesButton = document.querySelector("#darkmode");
+  const sunglasses = document.querySelector(".icon-sunglasses2");
   const containerEl = document.querySelector("#container");
   const headerEl = document.querySelector("header");
   const navTooltip = document.querySelectorAll("nav .tooltip");
@@ -90,6 +91,7 @@ function switchLightDark() {
     containerEl.classList.toggle("activeSunglasses");
     const activatedSunglasses = document.querySelector(".activeSunglasses");
     if (activatedSunglasses === null) {
+      sunglasses.style.transform = "rotate(360deg)";
       containerEl.style.backgroundColor = "#fdfdfd";
       headerEl.style.color = "#363f4c";
       navTooltip.forEach((tooltip) => {
@@ -103,6 +105,7 @@ function switchLightDark() {
         tooltip.style.border = "1px solid white";
       });
     } else {
+      sunglasses.style.transform = "rotate(360deg)";
       containerEl.style.backgroundColor = "#1C1C1C";
       headerEl.style.color = "#bcbcbc";
       navTooltip.forEach((tooltip) => {
