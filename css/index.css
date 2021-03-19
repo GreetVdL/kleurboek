@@ -274,6 +274,10 @@ footer {
     line-height: 30px;
   }
 
+  header #darkmode:hover {
+    font-size: 35px;
+  }
+
   nav {
     display: flex;
     justify-content: center;
