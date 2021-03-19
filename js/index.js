@@ -103,7 +103,7 @@ function switchLightDark() {
         tooltip.style.border = "1px solid white";
       });
     } else {
-      containerEl.style.backgroundColor = "#1C1C1C";
+      containerEl.style.backgroundColor = "#161B22";
       headerEl.style.color = "#bcbcbc";
       navTooltip.forEach((tooltip) => {
         tooltip.style.backgroundColor = "#1C1C1C";
