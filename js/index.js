@@ -83,13 +83,27 @@ function filterKids() {
 function switchLightDark() {
   const sunglassesButton = document.querySelector("#darkmode");
   const containerEl = document.querySelector("#container");
+  const headerEl = document.querySelector("header");
+  const navTooltip = document.querySelectorAll("nav .tooltip");
   sunglassesButton.addEventListener("click", () => {
     containerEl.classList.toggle("activeSunglasses");
     const activatedSunglasses = document.querySelector(".activeSunglasses");
     if (activatedSunglasses === null) {
-      containerEl.style.filter = "initial";
+      containerEl.style.backgroundColor = "#fdfdfd";
+      headerEl.style.color = "#363f4c";
+      navTooltip.forEach((tooltip) => {
+        tooltip.style.backgroundColor = "#fdfdfd";
+        tooltip.style.border = "1px solid white";
+      });
+      sunglassesButton.style.color = "#363f4c";
     } else {
-      containerEl.style.filter = "invert(1) hue-rotate(180deg)";
+      containerEl.style.backgroundColor = "#1C1C1C";
+      headerEl.style.color = "#bcbcbc";
+      navTooltip.forEach((tooltip) => {
+        tooltip.style.backgroundColor = "#1C1C1C";
+        tooltip.style.border = "none";
+        sunglassesButton.style.color = "pink";
+      });
     }
   });
 }
