@@ -85,6 +85,7 @@ function switchLightDark() {
   const containerEl = document.querySelector("#container");
   const headerEl = document.querySelector("header");
   const navTooltip = document.querySelectorAll("nav .tooltip");
+  const mainTooltip = document.querySelectorAll("main .tooltip");
   sunglassesButton.addEventListener("click", () => {
     containerEl.classList.toggle("activeSunglasses");
     const activatedSunglasses = document.querySelector(".activeSunglasses");
@@ -96,13 +97,23 @@ function switchLightDark() {
         tooltip.style.border = "1px solid white";
       });
       sunglassesButton.style.color = "#363f4c";
+      mainTooltip.forEach((tooltip) => {
+        tooltip.style.backgroundColor = "#eed994";
+        tooltip.style.color = "white";
+        tooltip.style.border = "1px solid white";
+      });
     } else {
       containerEl.style.backgroundColor = "#1C1C1C";
       headerEl.style.color = "#bcbcbc";
       navTooltip.forEach((tooltip) => {
         tooltip.style.backgroundColor = "#1C1C1C";
         tooltip.style.border = "none";
-        sunglassesButton.style.color = "pink";
+      });
+      sunglassesButton.style.color = "pink";
+      mainTooltip.forEach((tooltip) => {
+        tooltip.style.backgroundColor = "#1C1C1C";
+        tooltip.style.color = "#eed994";
+        tooltip.style.border = "1px solid #eed994";
       });
     }
   });
