@@ -68,7 +68,7 @@ header .icon-sunglasses2 {
 }
 
 header .icon-sunglasses2:hover {
-  transform: rotate(720deg);
+  transform: rotate(1080deg);
 }
 
 header > span {
