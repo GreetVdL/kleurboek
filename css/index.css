@@ -29,7 +29,6 @@ body {
   /* max-width: 705px; */
   margin: 20px auto 20px auto;
   padding: 0 20px 32px 20px;
-  border: 1px solid white;
   min-height: calc(100vh - 40px);
   background-color: #fdfdfd;
   filter: initial;
@@ -59,7 +58,8 @@ header #darkmode {
   font-size: 30px;
   margin-top: -60px;
   padding-right: 2px;
-  color: #363f4c;
+  /* color: #363f4c; */
+  color: #202020;
   width: 50px;
 }
 

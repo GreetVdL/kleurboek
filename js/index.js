@@ -96,7 +96,7 @@ function switchLightDark() {
         tooltip.style.backgroundColor = "#fdfdfd";
         tooltip.style.border = "1px solid white";
       });
-      sunglassesButton.style.color = "#363f4c";
+      sunglassesButton.style.color = "#202020";
       mainTooltip.forEach((tooltip) => {
         tooltip.style.backgroundColor = "#eed994";
         tooltip.style.color = "white";
