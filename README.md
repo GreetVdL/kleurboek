@@ -3,11 +3,12 @@
 # Kleurboek
 <p><strong>These are our favorite colors</strong></p>
 
-<p>A project as an exercise to build a website with the intention to add more functionality as I progress in my capabilities.</p>
+<p>A project as an exercise to build a simple website with some additional JavaScript functionality and for practising GitHub pull requests and merging with my classmates.</p>
 <p>This little project came to life from my love of color and curiosity.</p>
 <p>The idea is just to display people’s favorite color and explore which colors we like. The colors can be filtered based on sex, so it's nice to see both the separate and the combined results for women and men. There's a kids category too, minus thirteen.</p>
 <p>Checkout <a href="https://kleurboek.vercel.app/" target="_blank">the website</a> to see all the colors we love.</p>
-<p>And be welcome to add your own favorite one too. I’d love to see which color you chose!</p>
+
+<!--<p>And be welcome to add your own favorite one too. I’d love to see which color you chose!</p>-->
 <h3>How to contribute</h3>
 <p>In the index.html file, copy an &lt;a&gt; code block that has a class="codeblock" on it and paste it underneath the last one, right before the closing &lt;main&gt; tag. Add your category ('female', 'male' or 'child') to the class="codeblock". Between the &lt;span&gt; tags, fill in your name or an alias, followed by a space and the hex color code of your choice. Your name and the color code will then appear as a tooltip when you hover or click the color block. Also fill in the hex code of your favorite color in the style=”background-color:yourfavoritecolor” attribute.</p>
 <p><a href="https://coolors.co/e6544f" target="_blank">This</a> is a great tool to pick your color.</p>
